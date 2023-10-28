@@ -1,18 +1,19 @@
 * {
-  font-family: 'Varela Round', sans-serif;
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  letter-spacing: 0.02rem;
+  line-height: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .light-heading {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  font-size: 1.72rem;
   letter-spacing: .11rem;
-}
-
-h1 {
-  letter-spacing: 0.02rem;
-  line-height: 1.6rem;
+  font-size: 1.6rem;
 }
 
 nav ul {
@@ -24,7 +25,7 @@ nav ul {
 }
 
 nav a {
-  font-size: .75rem;
+  font-size: .85rem;
 
 }
 
@@ -41,16 +42,22 @@ img {
   width: 100%;
 }
 
+h3 {
+  font-family: 'Varela Round', sans-serif;
+}
+
 .introduction h3 {
   margin-top: 2.7%;
   margin-bottom: -3.2%;
 }
 
-p, em {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
-  font-size: 1.1rem;
-  line-height: s;
+p, em, a, li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.67rem;
+  letter-spacing: .015rem;
+  word-spacing: .01rem;
 }
 
 .personal-history h3 {
@@ -127,11 +134,57 @@ footer p {
   }
 
   nav a {
-    font-size: .70rem;
+    font-size: .80rem;
   }
 
   p, em {
+    font-size: .9rem;
+  }
+
+  h1 {
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 0.02rem;
+    line-height: 1.6rem;
     font-size: 1rem;
+  }
+  
+  .light-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: .11rem;
+    font-size: 1.05rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -3.5%;
+    margin-left: -7%;
+  }
+
+  nav a {
+    font-size: .80rem;
+  }
+
+  p, em {
+    font-size: .9rem;
+  }
+
+  h1 {
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 0.02rem;
+    line-height: 1.6rem;
+    font-size: 1.3rem;
+  }
+  
+  .light-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: .11rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -181,6 +234,11 @@ footer p {
     margin-left: -7%;
   }
 
+  nav a {
+    font-size: 1rem;
+  
+  }
+
   .introduction h3 {
     margin-top: 2.7%;
     margin-bottom: -0.3%;
@@ -216,7 +274,7 @@ footer p {
   }
 
   nav a {
-    font-size: .8rem;
+    font-size: 1rem;
   
   }
 
@@ -248,7 +306,7 @@ footer p {
   }
 
   nav a {
-    font-size: .8rem;
+    font-size: 1rem;
   
   }
 
@@ -282,7 +340,7 @@ footer p {
   }
 
   nav a {
-    font-size: .93rem;
+    font-size: 1.1rem;
   
   }
 
