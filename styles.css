@@ -147,6 +147,13 @@ footer p {
   margin-top: 8%;
 }
 
+#submit {
+  height: 2rem;
+  background-color: #fff;
+  color: black;
+  border: 1px black solid;
+}
+
 @media screen and (max-width: 320px) {
   nav ul {
     display: flex;
@@ -387,9 +394,3 @@ footer p {
   }
 }
 
-#submit {
-  height: 2rem;
-  background-color: #fff;
-  color: black;
-  border: 1px black solid;
-}
