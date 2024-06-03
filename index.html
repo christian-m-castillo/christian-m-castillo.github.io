@@ -1,150 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Christian Castillo Development &amp; Design</title>
-
-	<link rel="stylesheet" media="screen" href="./styles.css" >
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Christian Castillo">
-	<meta name="description" content="Christian Castillo Development & Design Portfolio">
-	<meta property="og:image" content="https://live.staticflickr.com/65535/53284894449_d705fc8657_k.jpg">
-	<meta property="og:title" content="Christian Castillo Development & Design">
-	<meta property="og:description" content="Christian Castillo Development & Design Portfolio">
-	<meta property="og:site_name" content="Christian Castillo Development & Design">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://example.com">
-	<meta name="robots" content="all">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devoted Development & Design</title>
+  <link href="./css/styles.css" rel="stylesheet">
 </head>
+<body>
+  <div class="header">
+    <h1><span class="devoted">Devoted</span> <span class="development-design">Development & Design</span></h1>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
 
+  <div class="hero">
+    <div class="left-hero">
+      <div class="left-hero-inner">
+        <h2>Meet your personal web developer.</h2>
+        <p>My name is Christian. Let's get started on your lighting fast, <em>fully</em> customized site or application, coded from scratch. Experience warm customer support and tailored solutions: all day, everyday.</p>
+        <a href="#contact" class="hero-button-anchor"><div class="cta-button hero-button">Let's Discuss Your Needs</div></a>
+    </div>
+    </div>
+    <div class="right-hero">
+      <img src="./img/dev_pic_sm_sq.jpg" alt="">
+    </div>
+  </div>
 
+  <div class="portfolio" id="portfolio">
+    <h3 class="portfolio-heading">Portfolio</h3>
+    <div class="card-box">
+      <div class="card">
+        <a href="https://pro-cosolutions.com/" target="_blank"><img src="./img/pro-co-solutions.png" alt="" class="image-box"></a>
+        <div class="proj-text">Oklahoma City based landscaping and lawn service company.</div>
+      </div>
+      <div class="card">
+        <a href="https://devoteddesign.dev/mamas-cats/" target="_blank"><img src="./img/mamas-cats.png" alt="" class="image-box"></a>
+        <div class="proj-text">An API driven random cat image generator.</div>
+      </div>
+      <div class="card">
+        <a href="https://devoteddesign.dev/tic-tac-toe/" target="_blank"><img src="./img/tic-tac-toe.png" alt="" class="image-box"></a>
+        <div class="proj-text">Tic-tac-toe coded in JavaScript.</div>
+      </div>
+      <div class="card">
+        <a href="https://devoteddesign.dev/carbon-footprint-calculator/" target="_blank"><img src="./img/carbon-footprint.png" alt="" class="image-box"></a>
+        <div class="proj-text">Estimate your carbon footprint compared to global average.</div>
+      </div>
+      <div class="card">
+        <a href="https://devoteddesign.dev/base64-converter/" target="_blank"><img src="./img/base-64.png" alt="" class="image-box"></a>
+        <div class="proj-text">Convert image to base 64 text string for encoding.</div>
+      </div>
+      <div class="card">
+        <a href="https://devoteddesign.dev/whack-a-mole/" target="_blank"><img src="./img/whack-a-mole.png" alt="" class="image-box"></a>
+        <div class="proj-text">An exhilarating game of whack-a-mole.</div>
+      </div>
+    </div>
+  </div>
 
-<body id="css-zen-garden">
-<div class="page-wrapper">
+  <div class="testimonials">
+    <div class="testimony-box">
+      <div class="testimony"><i>"I'm so happy with my new portfolio site! He did great! He was so supportive. I can't believe how he was able to bring my vision to life! And the follow up support was second to none! I'm so grateful to have Christian on my team."</i></div>
+      <div class="customer">- Janis Foreman</div>
+    </div>
+  </div>
 
-	<section class="title" id="developer-title" role="navigation">
-		<header role="banner">
-			<h1 id="main-heading"><span class="light-heading">Christian Castillo <br /></span>Development &amp; Design</h1>
-			<nav>
-				<ul>
-					<li><a href="#main-heading">Home</a></li>
-					<li><a href="#intro-heading">About</a></li>
-					<li><a href="#projects-heading">Projects</a></li>
-					<li><a href="#social-heading">Social</a></li>
-					<li><a href="#contact-heading">Contact</a></li>
-				</ul>
-			</nav>
-			<img src="https://live.staticflickr.com/65535/53284894449_d705fc8657_k.jpg" alt="Me as a web developer"/>
-		</header>
-	</section>
-	<div class="grid-wrapper">
-	<div class="column one">
-	<section class="main-copy" id="main-copy" role="main">
-		<div class="introduction" id="introduction" role="article">
-			<h3 id="intro-heading">About</h3>
-			<p>Hello! My name is Christian. I'm a designer/developer, and an ever-curious polymath with a diverse work background. Explore my portfolio to learn about my projects, skills, and services.</p>
-			<p>I'm passionate about crafting <em>exceptional</em> online experiences. I thrive on turning ambitious ideas into tangible realities with user-centric designs that leave a lasting impression.</p>
-			<p>I believe in the power of great customer service. From the initial consultation, to the final delivery and post-launch support, I keep you involved every step of the way. For all of your queries, I'm here to listen and provide tailored solutions. </p>
-		</div>
+  <div class="call-to-action" id="contact">
+    <div class="cta-inner">
+      <div class="cta-all-text">
+        <div class="cta-title">Let's Get Started.</div>
+        <div class="cta-body-text">
+          A web presence that delivers may be closer than you think. Get a cost-free, pressure-free consultation.
+        </div>
+        <div class="contact-box">
+          <div class="phone">
+            <span class="cta-subtitle">Phone:</span><span class="phone-email"><a href="tel:16187217003">618-721-7003</a></span>
+          </div>
+          <div class="email">
+            <span class="cta-subtitle">Email:</span><span class="phone-email"><a href="mailto:devoted.development.design@gmail.com">devoted.development.design@gmail.com</a></span>
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="cta-button-box">
+        <button class="cta-button">Let's Discuss Your Needs</button>
+      </div>
+    -->
+    </div>
+  </div>
 
-		<div class="personal-history" id="personal-history" role="article">
-			<h3 id="history-heading">Personal History</h3>
-			<p>Before becoming a developer, I served for 8 years as a U.S. Air Force Aeromedical Evacuation Technician (fancy speak for flight medic) and I ran a portrait photography business. </p>
-			<img src="https://live.staticflickr.com/65535/53296156856_9285d99519_h.jpg" alt="Me as a flight medic"/>
-			<p>My Air Force flight medic journey <!--was a chapter marked by dedication, leadership-building, and test-of-grit commitment to service. This experience--> instilled discipline, resilience, and a cool-headed approach to high pressure operations. It gave me a profound appreciation for clear communication and teamwork: skills that are highly invaluable in both healthcare and commerce.</p>
-			<img src="https://live.staticflickr.com/65535/53285004600_589bef753e_h.jpg" alt="Photograph of my son, wife, and dog" loading="lazy" />
-			<p>Photography is a channel to crystalize the fleeting, conjure poems of the soul, and currate life stories. My experience as a photographer taught me the importance of visual storytelling, skills that seamlessly integrate into my development and design work.</p>
-		</div>
-	</div><!--column-1-->
-	<div class="column two">
-		<div class="skills" id="skills" role="article">
-			<h3 id="skills-heading">Skills</h3>
-			<ul class="skill-list">
-				<li>HTML, CSS, JavaScript</li>
-				<li>Wordpress, Wix, Squarespace</li>
-				<li>Responsive Web Design</li>
-				<li>Front-end Frameworks (Bootstrap, React, Angular)</li>
-				<li>Back-end Development (Node.js, Python)</li>
-				<li>Database Management (MongoDB, MySQL)</li>
-				<li>API Integration</li>
-				<li>Version Control</li>
-				<li>Web Performance Optimization</li>
-				<li>Search Engine Optimization</li>
-				<li>Mobile Application Development (Flutter)</li>
-			</ul>
-		</div>
-	</section>
-
-	<div class="projects" id="projects" role="article">
-			<h3 id="projects-heading">Projects:</h3>
-			<p>Here is a website I built for <a href="https://www.loveabidingchristianchurch.org/" class="lacc-purple" target="_blank" >Love Abiding Christian Church</a>. It has ranked on the first page of Google for churches in its city for 7 years.</p>
-			<a href="https://www.loveabidingchristianchurch.org/" target="_blank">
-				<img src="https://live.staticflickr.com/65535/53293603685_57f32424d5_h.jpg" alt="Love Abiding Christian Church" class="project-image"/></a>
-			</a>
-		</div>
-
-
-		<div class="social" id="social" role="navigation">
-		<h3 id="social-heading">Let's connect</h3>
-		<p>Find me on any of these platforms!</p>
-		<div class="social-icons">
-			<a href="https://www.facebook.com/christian.c.castillo/" target="_blank">
-				<i class="fab fa-facebook-f"></i>
-			</a>
-			<a href="https://twitter.com/chrs_castillo" target="_blank">
-				<i class="fab fa-twitter"></i>
-			</a>
-			<a href="https://www.instagram.com/christian_castillo_music/" target="_blank">
-				<i class="fab fa-instagram"></i>
-			</a>
-			<a href="https://www.linkedin.com/in/christian-m-castillo/" target="_blank">
-				<i class="fab fa-linkedin-in"></i>
-			</a>
-			<a href="https://www.youtube.com/channel/UC7hEzn4GxWFvSSieTepodFg" target="_blank">
-				<i class="fab fa-youtube"></i>
-				<a href="https://github.com/christian-m-castillo" target="_blank">
-					<i class="fab fa-github"></i>
-			</a>
-		</div>
-	  </div>
-
-		<div class="contact" id="contact">
-			<h3 id="contact-heading">Reach Out</h3>
-			<p>Send me a direct message for a fast response: typically less than 1 hour, 7:00 am through 10:00pm Central Time (CT)). </p>
-			<a href="mailto:christian.castillo.email@gmail.com" class="message-me">Message Me</a>
-			<!--
-			<form id="form" action="https://www.freecodecamp.com/email-submit">
-          <label id="name-label" for="name" >Name: </label><input class="text-input" type="text" id="name" name="name" placeholder=" Name" required autocomplete="on" /> <br />
-          <label id="email-label" for="email" >Email: </label><input class="text-input" type="email" id="email" name="email" placeholder=" Email" required autocomplete="on"/> <br />
-          <label id="number-label" for="number" >Phone: </label><input class="text-input" type="number" id="number" name="age" placeholder=" Phone" required /> <br />
-          <label id="text-area-label" for="text-area" >Tell us more: </label>
-          <textarea id="text-area" placeholder=" Tell me more about your project!"></textarea>
-        <br />
-         <input id="submit" type="submit">
-      </form>
-			-->
-		</div>
-	</div><!--column-2-->
-	</div><!--grid-wrapper-->
-		
-
-		<footer>
-			<p id="copyright">&copy; 2011 Christian Castillo Development & Design</p>
-		</footer>
-
-		
-<script>
-	let now = new Date(); // milliseconds since 00:00 01 JAN 1970. This Date() object constructor let JS know that this variable holds a date.
-	let year = now.getFullYear(); //returns 4 digit year
-
-	let el = document.getElementById('copyright');
-	el.textContent = 'Copyright ' + year + ' Christian Castillo Development & Design';
-// Need to figure out how to get copyright symbol into text content: I tried the html entity &copy; , but the text "&copy" rendered instead of a copyright symbol. 
-
-</script>
+  <div class="footer">
+    <p>Copyright Devoted Development & Design 2024</p>
+    <p>Matthew 6:33-34 NKJV</p>
+  </div>
 </body>
 </html>
